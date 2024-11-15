@@ -1,0 +1,297 @@
+2024-11-15 23:18:28,351 - INFO - DataSet loaded:
+2024-11-15 23:18:28,356 - INFO -      Outlook Temperature Humidity    Wind PlayTenis
+0      Sunny         Hot     High    Weak        No
+1      Sunny         Hot     High  Strong        No
+2   Overcast         Hot     High    Weak       Yes
+3       Rain        Mild     High    Weak       Yes
+4       Rain        Cool   Normal    Weak       Yes
+5       Rain        Cool   Normal  Strong        No
+6   Overcast        Cool   Normal  Strong       Yes
+7      Sunny        Mild     High    Weak        No
+8      Sunny        Cool   Normal    Weak       Yes
+9       Rain        Mild   Normal    Weak       Yes
+10     Sunny        Mild   Normal  Strong       Yes
+11  Overcast        Mild     High  Strong       Yes
+12  Overcast         Hot   Normal    Weak       Yes
+13      Rain        Mild     High  Strong        No
+2024-11-15 23:18:28,357 - INFO - P(Yes): 0.6428571428571429
+2024-11-15 23:18:28,357 - INFO - P(No): 0.35714285714285715
+2024-11-15 23:18:28,358 - INFO - Likelihoods for feature: Outlook
+2024-11-15 23:18:28,358 - INFO - P(Outlook=Overcast | Yes): 0.44
+2024-11-15 23:18:28,358 - INFO - P(Outlook=Rain | Yes): 0.33
+2024-11-15 23:18:28,358 - INFO - P(Outlook=Sunny | Yes): 0.22
+2024-11-15 23:18:28,358 - INFO - P(Outlook=Sunny | No): 0.60
+2024-11-15 23:18:28,358 - INFO - P(Outlook=Rain | No): 0.40
+2024-11-15 23:18:28,360 - INFO - Likelihoods for feature: Temperature
+2024-11-15 23:18:28,360 - INFO - P(Temperature=Mild | Yes): 0.44
+2024-11-15 23:18:28,360 - INFO - P(Temperature=Cool | Yes): 0.33
+2024-11-15 23:18:28,360 - INFO - P(Temperature=Hot | Yes): 0.22
+2024-11-15 23:18:28,360 - INFO - P(Temperature=Hot | No): 0.40
+2024-11-15 23:18:28,360 - INFO - P(Temperature=Mild | No): 0.40
+2024-11-15 23:18:28,360 - INFO - P(Temperature=Cool | No): 0.20
+2024-11-15 23:18:28,361 - INFO - Likelihoods for feature: Humidity
+2024-11-15 23:18:28,361 - INFO - P(Humidity=Normal | Yes): 0.67
+2024-11-15 23:18:28,361 - INFO - P(Humidity=High | Yes): 0.33
+2024-11-15 23:18:28,361 - INFO - P(Humidity=High | No): 0.80
+2024-11-15 23:18:28,361 - INFO - P(Humidity=Normal | No): 0.20
+2024-11-15 23:18:28,362 - INFO - Likelihoods for feature: Wind
+2024-11-15 23:18:28,362 - INFO - P(Wind=Weak | Yes): 0.67
+2024-11-15 23:18:28,362 - INFO - P(Wind=Strong | Yes): 0.33
+2024-11-15 23:18:28,362 - INFO - P(Wind=Strong | No): 0.60
+2024-11-15 23:18:28,362 - INFO - P(Wind=Weak | No): 0.40
+2024-11-15 23:18:28,363 - INFO - Likelihoods saved to likelihoods.json
+2024-11-15 23:18:28,364 - INFO - Marginal probabilities: {'Outlook': {'Sunny': 0.35714285714285715, 'Rain': 0.35714285714285715, 'Overcast': 0.2857142857142857}, 'Temperature': {'Mild': 0.42857142857142855, 'Hot': 0.2857142857142857, 'Cool': 0.2857142857142857}, 'Humidity': {'High': 0.5, 'Normal': 0.5}, 'Wind': {'Weak': 0.5714285714285714, 'Strong': 0.42857142857142855}}
+2024-11-15 23:18:28,365 - INFO - Instance: ['Sunny' 'Hot' 'High' 'Weak']
+2024-11-15 23:18:28,365 - INFO - Posterior Yes: 0.1004
+2024-11-15 23:18:28,365 - INFO - Posterior No: 0.1024
+2024-11-15 23:18:28,365 - INFO - Prediction: No
+2024-11-15 23:18:28,366 - INFO - Instance: ['Sunny' 'Hot' 'High' 'Strong']
+2024-11-15 23:18:28,366 - INFO - Posterior Yes: 0.1001
+2024-11-15 23:18:28,366 - INFO - Posterior No: 0.1039
+2024-11-15 23:18:28,366 - INFO - Prediction: No
+2024-11-15 23:18:28,366 - INFO - Instance: ['Overcast' 'Hot' 'High' 'Weak']
+2024-11-15 23:18:28,366 - INFO - Posterior Yes: 0.1012
+2024-11-15 23:18:28,366 - INFO - Posterior No: 0.0998
+2024-11-15 23:18:28,366 - INFO - Prediction: Yes
+2024-11-15 23:18:28,367 - INFO - Instance: ['Rain' 'Mild' 'High' 'Weak']
+2024-11-15 23:18:28,367 - INFO - Posterior Yes: 0.1017
+2024-11-15 23:18:28,367 - INFO - Posterior No: 0.1014
+2024-11-15 23:18:28,367 - INFO - Prediction: Yes
+2024-11-15 23:18:28,367 - INFO - Instance: ['Rain' 'Cool' 'Normal' 'Weak']
+2024-11-15 23:18:28,367 - INFO - Posterior Yes: 0.1029
+2024-11-15 23:18:28,367 - INFO - Posterior No: 0.0999
+2024-11-15 23:18:28,367 - INFO - Prediction: Yes
+2024-11-15 23:18:28,368 - INFO - Instance: ['Rain' 'Cool' 'Normal' 'Strong']
+2024-11-15 23:18:28,368 - INFO - Posterior Yes: 0.1014
+2024-11-15 23:18:28,368 - INFO - Posterior No: 0.1001
+2024-11-15 23:18:28,368 - INFO - Prediction: Yes
+2024-11-15 23:18:28,368 - INFO - Instance: ['Overcast' 'Cool' 'Normal' 'Strong']
+2024-11-15 23:18:28,368 - INFO - Posterior Yes: 0.1019
+2024-11-15 23:18:28,368 - INFO - Posterior No: 0.0998
+2024-11-15 23:18:28,368 - INFO - Prediction: Yes
+2024-11-15 23:18:28,369 - INFO - Instance: ['Sunny' 'Mild' 'High' 'Weak']
+2024-11-15 23:18:28,369 - INFO - Posterior Yes: 0.1010
+2024-11-15 23:18:28,369 - INFO - Posterior No: 0.1023
+2024-11-15 23:18:28,369 - INFO - Prediction: No
+2024-11-15 23:18:28,369 - INFO - Instance: ['Sunny' 'Cool' 'Normal' 'Weak']
+2024-11-15 23:18:28,369 - INFO - Posterior Yes: 0.1018
+2024-11-15 23:18:28,369 - INFO - Posterior No: 0.1001
+2024-11-15 23:18:28,369 - INFO - Prediction: Yes
+2024-11-15 23:18:28,370 - INFO - Instance: ['Rain' 'Mild' 'Normal' 'Weak']
+2024-11-15 23:18:28,370 - INFO - Posterior Yes: 0.1038
+2024-11-15 23:18:28,370 - INFO - Posterior No: 0.1000
+2024-11-15 23:18:28,370 - INFO - Prediction: Yes
+2024-11-15 23:18:28,370 - INFO - Instance: ['Sunny' 'Mild' 'Normal' 'Strong']
+2024-11-15 23:18:28,370 - INFO - Posterior Yes: 0.1011
+2024-11-15 23:18:28,370 - INFO - Posterior No: 0.1007
+2024-11-15 23:18:28,370 - INFO - Prediction: Yes
+2024-11-15 23:18:28,370 - INFO - Instance: ['Overcast' 'Mild' 'High' 'Strong']
+2024-11-15 23:18:28,370 - INFO - Posterior Yes: 0.1011
+2024-11-15 23:18:28,371 - INFO - Posterior No: 0.0997
+2024-11-15 23:18:28,371 - INFO - Prediction: Yes
+2024-11-15 23:18:28,371 - INFO - Instance: ['Overcast' 'Hot' 'Normal' 'Weak']
+2024-11-15 23:18:28,371 - INFO - Posterior Yes: 0.1026
+2024-11-15 23:18:28,371 - INFO - Posterior No: 0.0998
+2024-11-15 23:18:28,371 - INFO - Prediction: Yes
+2024-11-15 23:18:28,372 - INFO - Instance: ['Rain' 'Mild' 'High' 'Strong']
+2024-11-15 23:18:28,372 - INFO - Posterior Yes: 0.1007
+2024-11-15 23:18:28,372 - INFO - Posterior No: 0.1024
+2024-11-15 23:18:28,372 - INFO - Prediction: No
+2024-11-15 23:22:43,977 - INFO - DataSet loaded:
+2024-11-15 23:22:43,982 - INFO -      Outlook Temperature Humidity    Wind PlayTenis
+0      Sunny         Hot     High    Weak        No
+1      Sunny         Hot     High  Strong        No
+2   Overcast         Hot     High    Weak       Yes
+3       Rain        Mild     High    Weak       Yes
+4       Rain        Cool   Normal    Weak       Yes
+5       Rain        Cool   Normal  Strong        No
+6   Overcast        Cool   Normal  Strong       Yes
+7      Sunny        Mild     High    Weak        No
+8      Sunny        Cool   Normal    Weak       Yes
+9       Rain        Mild   Normal    Weak       Yes
+10     Sunny        Mild   Normal  Strong       Yes
+11  Overcast        Mild     High  Strong       Yes
+12  Overcast         Hot   Normal    Weak       Yes
+13      Rain        Mild     High  Strong        No
+2024-11-15 23:22:43,982 - INFO - P(Yes): 0.6428571428571429
+2024-11-15 23:22:43,982 - INFO - P(No): 0.35714285714285715
+2024-11-15 23:22:43,984 - INFO - Likelihoods for feature: Outlook
+2024-11-15 23:22:43,984 - INFO - P(Outlook=Overcast | Yes): 0.44
+2024-11-15 23:22:43,984 - INFO - P(Outlook=Rain | Yes): 0.33
+2024-11-15 23:22:43,984 - INFO - P(Outlook=Sunny | Yes): 0.22
+2024-11-15 23:22:43,984 - INFO - P(Outlook=Sunny | No): 0.60
+2024-11-15 23:22:43,984 - INFO - P(Outlook=Rain | No): 0.40
+2024-11-15 23:22:43,985 - INFO - Likelihoods for feature: Temperature
+2024-11-15 23:22:43,985 - INFO - P(Temperature=Mild | Yes): 0.44
+2024-11-15 23:22:43,985 - INFO - P(Temperature=Cool | Yes): 0.33
+2024-11-15 23:22:43,985 - INFO - P(Temperature=Hot | Yes): 0.22
+2024-11-15 23:22:43,985 - INFO - P(Temperature=Hot | No): 0.40
+2024-11-15 23:22:43,985 - INFO - P(Temperature=Mild | No): 0.40
+2024-11-15 23:22:43,985 - INFO - P(Temperature=Cool | No): 0.20
+2024-11-15 23:22:43,986 - INFO - Likelihoods for feature: Humidity
+2024-11-15 23:22:43,986 - INFO - P(Humidity=Normal | Yes): 0.67
+2024-11-15 23:22:43,986 - INFO - P(Humidity=High | Yes): 0.33
+2024-11-15 23:22:43,987 - INFO - P(Humidity=High | No): 0.80
+2024-11-15 23:22:43,987 - INFO - P(Humidity=Normal | No): 0.20
+2024-11-15 23:22:43,988 - INFO - Likelihoods for feature: Wind
+2024-11-15 23:22:43,988 - INFO - P(Wind=Weak | Yes): 0.67
+2024-11-15 23:22:43,988 - INFO - P(Wind=Strong | Yes): 0.33
+2024-11-15 23:22:43,988 - INFO - P(Wind=Strong | No): 0.60
+2024-11-15 23:22:43,988 - INFO - P(Wind=Weak | No): 0.40
+2024-11-15 23:22:43,988 - INFO - Likelihoods saved to likelihoods.json
+2024-11-15 23:22:43,989 - INFO - Marginal probabilities: {'Outlook': {'Sunny': 0.35714285714285715, 'Rain': 0.35714285714285715, 'Overcast': 0.2857142857142857}, 'Temperature': {'Mild': 0.42857142857142855, 'Hot': 0.2857142857142857, 'Cool': 0.2857142857142857}, 'Humidity': {'High': 0.5, 'Normal': 0.5}, 'Wind': {'Weak': 0.5714285714285714, 'Strong': 0.42857142857142855}}
+2024-11-15 23:22:43,991 - INFO - Instance: ['Sunny' 'Hot' 'High' 'Weak']
+2024-11-15 23:22:43,991 - INFO - Posterior Yes: 0.1004
+2024-11-15 23:22:43,991 - INFO - Posterior No: 0.1024
+2024-11-15 23:22:43,991 - INFO - Prediction: No
+2024-11-15 23:22:43,991 - INFO - Instance: ['Sunny' 'Hot' 'High' 'Strong']
+2024-11-15 23:22:43,992 - INFO - Posterior Yes: 0.1001
+2024-11-15 23:22:43,992 - INFO - Posterior No: 0.1039
+2024-11-15 23:22:43,992 - INFO - Prediction: No
+2024-11-15 23:22:43,992 - INFO - Instance: ['Overcast' 'Hot' 'High' 'Weak']
+2024-11-15 23:22:43,992 - INFO - Posterior Yes: 0.1012
+2024-11-15 23:22:43,992 - INFO - Posterior No: 0.0998
+2024-11-15 23:22:43,992 - INFO - Prediction: Yes
+2024-11-15 23:22:43,992 - INFO - Instance: ['Rain' 'Mild' 'High' 'Weak']
+2024-11-15 23:22:43,992 - INFO - Posterior Yes: 0.1017
+2024-11-15 23:22:43,993 - INFO - Posterior No: 0.1014
+2024-11-15 23:22:43,993 - INFO - Prediction: Yes
+2024-11-15 23:22:43,993 - INFO - Instance: ['Rain' 'Cool' 'Normal' 'Weak']
+2024-11-15 23:22:43,993 - INFO - Posterior Yes: 0.1029
+2024-11-15 23:22:43,993 - INFO - Posterior No: 0.0999
+2024-11-15 23:22:43,993 - INFO - Prediction: Yes
+2024-11-15 23:22:43,993 - INFO - Instance: ['Rain' 'Cool' 'Normal' 'Strong']
+2024-11-15 23:22:43,993 - INFO - Posterior Yes: 0.1014
+2024-11-15 23:22:43,993 - INFO - Posterior No: 0.1001
+2024-11-15 23:22:43,993 - INFO - Prediction: Yes
+2024-11-15 23:22:43,994 - INFO - Instance: ['Overcast' 'Cool' 'Normal' 'Strong']
+2024-11-15 23:22:43,994 - INFO - Posterior Yes: 0.1019
+2024-11-15 23:22:43,994 - INFO - Posterior No: 0.0998
+2024-11-15 23:22:43,994 - INFO - Prediction: Yes
+2024-11-15 23:22:43,994 - INFO - Instance: ['Sunny' 'Mild' 'High' 'Weak']
+2024-11-15 23:22:43,994 - INFO - Posterior Yes: 0.1010
+2024-11-15 23:22:43,994 - INFO - Posterior No: 0.1023
+2024-11-15 23:22:43,994 - INFO - Prediction: No
+2024-11-15 23:22:43,995 - INFO - Instance: ['Sunny' 'Cool' 'Normal' 'Weak']
+2024-11-15 23:22:43,995 - INFO - Posterior Yes: 0.1018
+2024-11-15 23:22:43,995 - INFO - Posterior No: 0.1001
+2024-11-15 23:22:43,995 - INFO - Prediction: Yes
+2024-11-15 23:22:43,995 - INFO - Instance: ['Rain' 'Mild' 'Normal' 'Weak']
+2024-11-15 23:22:43,995 - INFO - Posterior Yes: 0.1038
+2024-11-15 23:22:43,995 - INFO - Posterior No: 0.1000
+2024-11-15 23:22:43,995 - INFO - Prediction: Yes
+2024-11-15 23:22:43,995 - INFO - Instance: ['Sunny' 'Mild' 'Normal' 'Strong']
+2024-11-15 23:22:43,995 - INFO - Posterior Yes: 0.1011
+2024-11-15 23:22:43,995 - INFO - Posterior No: 0.1007
+2024-11-15 23:22:43,996 - INFO - Prediction: Yes
+2024-11-15 23:22:43,996 - INFO - Instance: ['Overcast' 'Mild' 'High' 'Strong']
+2024-11-15 23:22:43,996 - INFO - Posterior Yes: 0.1011
+2024-11-15 23:22:43,996 - INFO - Posterior No: 0.0997
+2024-11-15 23:22:43,996 - INFO - Prediction: Yes
+2024-11-15 23:22:43,997 - INFO - Instance: ['Overcast' 'Hot' 'Normal' 'Weak']
+2024-11-15 23:22:43,997 - INFO - Posterior Yes: 0.1026
+2024-11-15 23:22:43,997 - INFO - Posterior No: 0.0998
+2024-11-15 23:22:43,997 - INFO - Prediction: Yes
+2024-11-15 23:22:43,997 - INFO - Instance: ['Rain' 'Mild' 'High' 'Strong']
+2024-11-15 23:22:43,997 - INFO - Posterior Yes: 0.1007
+2024-11-15 23:22:43,997 - INFO - Posterior No: 0.1024
+2024-11-15 23:22:43,997 - INFO - Prediction: No
+2024-11-15 23:26:20,449 - INFO - DataSet loaded:
+2024-11-15 23:26:20,455 - INFO -      Outlook Temperature Humidity    Wind PlayTenis
+0      Sunny         Hot     High    Weak        No
+1      Sunny         Hot     High  Strong        No
+2   Overcast         Hot     High    Weak       Yes
+3       Rain        Mild     High    Weak       Yes
+4       Rain        Cool   Normal    Weak       Yes
+5       Rain        Cool   Normal  Strong        No
+6   Overcast        Cool   Normal  Strong       Yes
+7      Sunny        Mild     High    Weak        No
+8      Sunny        Cool   Normal    Weak       Yes
+9       Rain        Mild   Normal    Weak       Yes
+10     Sunny        Mild   Normal  Strong       Yes
+11  Overcast        Mild     High  Strong       Yes
+12  Overcast         Hot   Normal    Weak       Yes
+13      Rain        Mild     High  Strong        No
+2024-11-15 23:26:20,456 - INFO - P(Yes): 0.6428571428571429
+2024-11-15 23:26:20,456 - INFO - P(No): 0.35714285714285715
+2024-11-15 23:26:20,457 - INFO - Likelihoods for feature: Outlook
+2024-11-15 23:26:20,457 - INFO - P(Outlook=Overcast | Yes): 0.44
+2024-11-15 23:26:20,457 - INFO - P(Outlook=Rain | Yes): 0.33
+2024-11-15 23:26:20,457 - INFO - P(Outlook=Sunny | Yes): 0.22
+2024-11-15 23:26:20,457 - INFO - P(Outlook=Sunny | No): 0.60
+2024-11-15 23:26:20,457 - INFO - P(Outlook=Rain | No): 0.40
+2024-11-15 23:26:20,458 - INFO - Likelihoods for feature: Temperature
+2024-11-15 23:26:20,458 - INFO - P(Temperature=Mild | Yes): 0.44
+2024-11-15 23:26:20,459 - INFO - P(Temperature=Cool | Yes): 0.33
+2024-11-15 23:26:20,459 - INFO - P(Temperature=Hot | Yes): 0.22
+2024-11-15 23:26:20,459 - INFO - P(Temperature=Hot | No): 0.40
+2024-11-15 23:26:20,459 - INFO - P(Temperature=Mild | No): 0.40
+2024-11-15 23:26:20,459 - INFO - P(Temperature=Cool | No): 0.20
+2024-11-15 23:26:20,460 - INFO - Likelihoods for feature: Humidity
+2024-11-15 23:26:20,460 - INFO - P(Humidity=Normal | Yes): 0.67
+2024-11-15 23:26:20,460 - INFO - P(Humidity=High | Yes): 0.33
+2024-11-15 23:26:20,460 - INFO - P(Humidity=High | No): 0.80
+2024-11-15 23:26:20,460 - INFO - P(Humidity=Normal | No): 0.20
+2024-11-15 23:26:20,461 - INFO - Likelihoods for feature: Wind
+2024-11-15 23:26:20,461 - INFO - P(Wind=Weak | Yes): 0.67
+2024-11-15 23:26:20,461 - INFO - P(Wind=Strong | Yes): 0.33
+2024-11-15 23:26:20,461 - INFO - P(Wind=Strong | No): 0.60
+2024-11-15 23:26:20,461 - INFO - P(Wind=Weak | No): 0.40
+2024-11-15 23:26:20,462 - INFO - Likelihoods saved to likelihoods.json
+2024-11-15 23:26:20,463 - INFO - Marginal probabilities: {'Outlook': {'Sunny': 0.35714285714285715, 'Rain': 0.35714285714285715, 'Overcast': 0.2857142857142857}, 'Temperature': {'Mild': 0.42857142857142855, 'Hot': 0.2857142857142857, 'Cool': 0.2857142857142857}, 'Humidity': {'High': 0.5, 'Normal': 0.5}, 'Wind': {'Weak': 0.5714285714285714, 'Strong': 0.42857142857142855}}
+2024-11-15 23:26:20,465 - INFO - Instance: ['Sunny' 'Hot' 'High' 'Weak']
+2024-11-15 23:26:20,465 - INFO - Posterior Yes: 0.1004
+2024-11-15 23:26:20,465 - INFO - Posterior No: 0.1024
+2024-11-15 23:26:20,465 - INFO - Prediction: No
+2024-11-15 23:26:20,465 - INFO - Instance: ['Sunny' 'Hot' 'High' 'Strong']
+2024-11-15 23:26:20,465 - INFO - Posterior Yes: 0.1001
+2024-11-15 23:26:20,465 - INFO - Posterior No: 0.1039
+2024-11-15 23:26:20,465 - INFO - Prediction: No
+2024-11-15 23:26:20,466 - INFO - Instance: ['Overcast' 'Hot' 'High' 'Weak']
+2024-11-15 23:26:20,466 - INFO - Posterior Yes: 0.1012
+2024-11-15 23:26:20,466 - INFO - Posterior No: 0.0998
+2024-11-15 23:26:20,466 - INFO - Prediction: Yes
+2024-11-15 23:26:20,466 - INFO - Instance: ['Rain' 'Mild' 'High' 'Weak']
+2024-11-15 23:26:20,466 - INFO - Posterior Yes: 0.1017
+2024-11-15 23:26:20,466 - INFO - Posterior No: 0.1014
+2024-11-15 23:26:20,466 - INFO - Prediction: Yes
+2024-11-15 23:26:20,467 - INFO - Instance: ['Rain' 'Cool' 'Normal' 'Weak']
+2024-11-15 23:26:20,467 - INFO - Posterior Yes: 0.1029
+2024-11-15 23:26:20,467 - INFO - Posterior No: 0.0999
+2024-11-15 23:26:20,467 - INFO - Prediction: Yes
+2024-11-15 23:26:20,467 - INFO - Instance: ['Rain' 'Cool' 'Normal' 'Strong']
+2024-11-15 23:26:20,467 - INFO - Posterior Yes: 0.1014
+2024-11-15 23:26:20,467 - INFO - Posterior No: 0.1001
+2024-11-15 23:26:20,467 - INFO - Prediction: Yes
+2024-11-15 23:26:20,467 - INFO - Instance: ['Overcast' 'Cool' 'Normal' 'Strong']
+2024-11-15 23:26:20,467 - INFO - Posterior Yes: 0.1019
+2024-11-15 23:26:20,468 - INFO - Posterior No: 0.0998
+2024-11-15 23:26:20,468 - INFO - Prediction: Yes
+2024-11-15 23:26:20,468 - INFO - Instance: ['Sunny' 'Mild' 'High' 'Weak']
+2024-11-15 23:26:20,468 - INFO - Posterior Yes: 0.1010
+2024-11-15 23:26:20,468 - INFO - Posterior No: 0.1023
+2024-11-15 23:26:20,468 - INFO - Prediction: No
+2024-11-15 23:26:20,468 - INFO - Instance: ['Sunny' 'Cool' 'Normal' 'Weak']
+2024-11-15 23:26:20,468 - INFO - Posterior Yes: 0.1018
+2024-11-15 23:26:20,468 - INFO - Posterior No: 0.1001
+2024-11-15 23:26:20,468 - INFO - Prediction: Yes
+2024-11-15 23:26:20,469 - INFO - Instance: ['Rain' 'Mild' 'Normal' 'Weak']
+2024-11-15 23:26:20,469 - INFO - Posterior Yes: 0.1038
+2024-11-15 23:26:20,469 - INFO - Posterior No: 0.1000
+2024-11-15 23:26:20,469 - INFO - Prediction: Yes
+2024-11-15 23:26:20,469 - INFO - Instance: ['Sunny' 'Mild' 'Normal' 'Strong']
+2024-11-15 23:26:20,469 - INFO - Posterior Yes: 0.1011
+2024-11-15 23:26:20,469 - INFO - Posterior No: 0.1007
+2024-11-15 23:26:20,469 - INFO - Prediction: Yes
+2024-11-15 23:26:20,470 - INFO - Instance: ['Overcast' 'Mild' 'High' 'Strong']
+2024-11-15 23:26:20,470 - INFO - Posterior Yes: 0.1011
+2024-11-15 23:26:20,470 - INFO - Posterior No: 0.0997
+2024-11-15 23:26:20,470 - INFO - Prediction: Yes
+2024-11-15 23:26:20,470 - INFO - Instance: ['Overcast' 'Hot' 'Normal' 'Weak']
+2024-11-15 23:26:20,471 - INFO - Posterior Yes: 0.1026
+2024-11-15 23:26:20,471 - INFO - Posterior No: 0.0998
+2024-11-15 23:26:20,471 - INFO - Prediction: Yes
+2024-11-15 23:26:20,471 - INFO - Instance: ['Rain' 'Mild' 'High' 'Strong']
+2024-11-15 23:26:20,471 - INFO - Posterior Yes: 0.1007
+2024-11-15 23:26:20,471 - INFO - Posterior No: 0.1024
+2024-11-15 23:26:20,471 - INFO - Prediction: No
